@@ -75,7 +75,7 @@
   </li>
 
   {% if nav_item.children %}
-    <ul>
+    <ul class="md-nav__list" data-md-scrollfix style="list-style: none;">
       {% for child in nav_item.children %}
         {{ render(child, path ~ "_" ~ loop.index, level + 1) }}
       {% endfor %}
