@@ -41,7 +41,7 @@
 // Navigation
 .md-nav {
   font-size: px2rem(14px);
-  line-height: 1.3;
+  line-height: 2;
 
   // Navigation title
   &__title {
@@ -466,7 +466,7 @@
     &--secondary {
       // Navigation title
       .md-nav__title {
-        margin-top: 18px !important;
+        margin-top: 20px !important;
 
         position: sticky;
         top: 0;
