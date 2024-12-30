@@ -30,10 +30,11 @@
   position: sticky;
   inset-inline: 0;
   top: 0;
+  border-bottom: 0.5px solid hsl(0, 0%, 93%);
   z-index: 4;
   display: block;
   color: var(--md-primary-bg-color);
-  background-color: var(--md-primary-fg-color);
+  background-color: var(--md-default-bg-color) !important;
   // Hack: reduce jitter by adding a transparent box shadow of the same size
   // so the size of the layer doesn't change during animation
   //box-shadow:
@@ -266,3 +267,4 @@
     }
   }
 }
+
